@@ -1,0 +1,38 @@
+// Заголовки, общие БЄМ блоки и проче...
+._btn-orange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+
+    width: rem(230);
+    height: rem(56);
+    background-color: $secondaryOrange;
+    border-radius: 0px rem(20);
+    transition: background-color 0.3s ease 0s;
+    @media (any-hover: hover) {
+        &:hover {
+            background-color: #f98c20;
+        }
+    }
+}
+
+._btn-green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fdfdfd;
+    font-weight: 500;
+
+    width: rem(230);
+    height: rem(56);
+    background-color: $secondaryGreen;
+    border-radius: 0px rem(20);
+    transition: background-color 0.3s ease 0s;
+    @media (any-hover: hover) {
+        &:hover {
+            background-color: #0ea575;
+        }
+    }
+}
